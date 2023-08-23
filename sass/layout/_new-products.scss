@@ -1,0 +1,27 @@
+.new-products {
+  padding-bottom: 120px;
+  background: var(--main-bg-page, #fbf8ec);
+  .new-products-content {
+    .d1 {
+      padding-bottom: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .p1 {
+        color: var(--main-on-surface, #414141);
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 54px */
+      }
+    }
+    .home-cards {
+      display: flex;
+      justify-content: space-between;
+      .d50 {
+        display: flex;
+        column-gap: 42px;
+      }
+    }
+  }
+}

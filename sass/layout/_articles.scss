@@ -1,0 +1,27 @@
+.articles {
+  background: var(--main-bg-page, #fbf8ec);
+  padding-bottom: 80px;
+  .articles-content {
+    .d1 {
+      display: flex;
+      align-items: center;
+      padding-bottom: 40px;
+      justify-content: space-between;
+      .p1 {
+        color: var(--main-on-surface, #414141);
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 54px */
+      }
+    }
+    .articles-cards {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      column-gap: 10px;
+      row-gap: 20px;
+    }
+  }
+}

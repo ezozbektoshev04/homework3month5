@@ -1,0 +1,27 @@
+.home {
+  margin-top: 86px;
+  background: url(../../assets/images/image8.png);
+  height: 200px;
+  .home1 {
+    backdrop-filter: blur(1px);
+    .home-content {
+      padding-left: 67px;
+      display: flex;
+      align-items: center;
+      column-gap: 18px;
+      .p1 {
+        color: var(--main-on-surface, #414141);
+        text-align: center;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 72px */
+      }
+    }
+  }
+}
+@media (max-width: 690px) {
+  .img9 {
+    display: none;
+  }
+}

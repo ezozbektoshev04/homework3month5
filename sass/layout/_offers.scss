@@ -1,0 +1,22 @@
+.offers {
+  padding-bottom: 120px;
+  background: var(--main-bg-page, #fbf8ec);
+  .offers-content {
+    .p1 {
+      color: var(--main-on-surface, #414141);
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%; /* 54px */
+      padding-bottom: 40px;
+    }
+    .offers-cards {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      column-gap: 20px;
+      row-gap: 30px;
+    }
+  }
+}

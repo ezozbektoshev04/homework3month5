@@ -1,0 +1,105 @@
+header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 99;
+  background: #fff;
+  .container {
+    nav {
+      padding-top: 16px;
+      padding-bottom: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-items {
+      display: flex;
+      align-items: center;
+      column-gap: 24px;
+      .nav-catalog {
+        display: flex;
+        align-items: center;
+        column-gap: 8px;
+        border-radius: 4px;
+        background: var(--main-secondary, #70c05b);
+        padding: 8px;
+        .p1 {
+          width: 92px;
+          color: var(--main-on-secondary, #fff);
+          text-align: center;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%; /* 24px */
+        }
+      }
+      .field {
+        position: relative;
+        margin-right: 16px;
+        .input1 {
+          width: 344px;
+          border-radius: 4px;
+          border: 1px solid var(--main-secondary, #70c05b);
+          background: var(--main-surface, #fff);
+          padding: 8px 42px 8px 16px;
+          color: var(--grayscale-hard, #8f8f8f);
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%; /* 24px */
+        }
+        .search-icon {
+          position: absolute;
+          right: 8px;
+          top: 8px;
+        }
+      }
+      .nav-links {
+        display: flex;
+        align-items: center;
+        column-gap: 24px;
+        .nav-link {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          row-gap: 8px;
+          .p2 {
+            color: var(--main-on-surface, #414141);
+            text-align: center;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%; /* 18px */
+          }
+        }
+      }
+      .acc {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+      }
+    }
+  }
+}
+@media (max-width: 1105px) {
+  .acc {
+    display: none !important;
+  }
+}
+@media (max-width: 970px) {
+  .nav-links {
+    display: none !important;
+  }
+}
+@media (max-width: 690px) {
+  .nav-catalog {
+    display: none !important;
+  }
+}
+@media (max-width: 570px) {
+  .input1 {
+    width: 200px !important;
+  }
+}
