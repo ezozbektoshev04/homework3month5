@@ -70,6 +70,14 @@
         line-height: 150%; /* 18px */
       }
     }
+    .product-name {
+      color: var(--main-on-surface, #414141);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 100%;
+      padding-bottom: 5px;
+    }
     .p6 {
       max-width: 250px;
       color: var(--main-on-surface, #414141);

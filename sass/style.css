@@ -150,6 +150,14 @@ textarea {
   font-weight: 400;
   line-height: 150%; /* 18px */
 }
+.home-card .card-btom .product-name {
+  color: var(--main-on-surface, #414141);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  padding-bottom: 5px;
+}
 .home-card .card-btom .p6 {
   max-width: 250px;
   color: var(--main-on-surface, #414141);
@@ -278,7 +286,7 @@ header .container .nav-items {
   -moz-column-gap: 24px;
        column-gap: 24px;
 }
-header .container .nav-items .nav-catalog {
+header .container .nav-items .nav-catalog1 {
   display: flex;
   align-items: center;
   -moz-column-gap: 8px;
@@ -287,7 +295,7 @@ header .container .nav-items .nav-catalog {
   background: var(--main-secondary, #70c05b);
   padding: 8px;
 }
-header .container .nav-items .nav-catalog .p1 {
+header .container .nav-items .nav-catalog1 .p1 {
   width: 92px;
   color: var(--main-on-secondary, #fff);
   text-align: center;
@@ -342,6 +350,34 @@ header .container .nav-items .acc {
   align-items: center;
   -moz-column-gap: 10px;
        column-gap: 10px;
+}
+header .container .nav-catalog {
+  display: none;
+}
+header .container .navcat {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+header .container .navcat .d2 {
+  display: flex;
+  justify-content: space-between;
+}
+header .container .navcat .d2 .d3 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+header .container .navcat .d2 .d3 .p4 {
+  color: var(--main-on-surface, #414141);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+  transition: all 0.5s;
+}
+header .container .navcat .d2 .d3 .p4:hover {
+  color: var(--main-primary, #f63);
 }
 
 @media (max-width: 1105px) {
@@ -656,6 +692,8 @@ footer .footer-content .d10 {
 .all-products .all-products-content .home-cards {
   padding-bottom: 30px;
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
   justify-content: space-between;
 }
 .all-products .all-products-content .home-cards .d50 {
@@ -671,6 +709,79 @@ footer .footer-content .d10 {
   -moz-column-gap: 16px;
        column-gap: 16px;
   padding-bottom: 60px;
+}
+
+.catigories-mainsec {
+  background: var(--main-bg-page, #fbf8ec);
+}
+.catigories-mainsec .catigories-mainsec-content {
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+.catigories-mainsec .catigories-mainsec-content .d1 {
+  padding-bottom: 24px;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+.catigories-mainsec .catigories-mainsec-content .d1 .a3 {
+  color: var(--main-on-surface, #414141);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 18px */
+}
+.catigories-mainsec .catigories-mainsec-content .d1 .a3:visited {
+  color: var(--grayscale-hard, #8f8f8f);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+}
+.catigories-mainsec .catigories-mainsec-content .p10 {
+  color: var(--main-on-surface, #414141);
+  padding-bottom: 60px;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 96px */
+}
+.catigories-mainsec .catigories-mainsec-content .catigories-mainsec-cards {
+  border-radius: 4px !important;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  row-gap: 40px;
+}
+.catigories-mainsec .catigories-mainsec-content .catigories-mainsec-cards .catigories-mainsec-card {
+  position: relative;
+  height: 200px;
+}
+.catigories-mainsec .catigories-mainsec-content .catigories-mainsec-cards .catigories-mainsec-card .bg-img {
+  position: relative;
+}
+.catigories-mainsec .catigories-mainsec-content .catigories-mainsec-cards .catigories-mainsec-card .bg-img .linear {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(112, 192, 91, 0) 30%, #70c05b 102.81%);
+}
+.catigories-mainsec .catigories-mainsec-content .catigories-mainsec-cards .catigories-mainsec-card .a2 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: var(--main-on-secondary, #fff);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
 }
 
 .container {

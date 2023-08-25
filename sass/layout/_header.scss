@@ -18,7 +18,7 @@ header {
       display: flex;
       align-items: center;
       column-gap: 24px;
-      .nav-catalog {
+      .nav-catalog1 {
         display: flex;
         align-items: center;
         column-gap: 8px;
@@ -79,6 +79,34 @@ header {
         display: flex;
         align-items: center;
         column-gap: 10px;
+      }
+    }
+    .nav-catalog {
+      display: none;
+    }
+    .navcat {
+      display: block;
+      padding-top: 20px;
+      padding-bottom: 40px;
+      .d2 {
+        display: flex;
+        justify-content: space-between;
+        .d3 {
+          display: flex;
+          flex-direction: column;
+          row-gap: 24px;
+          .p4 {
+            color: var(--main-on-surface, #414141);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%; /* 24px */
+            transition: all 0.5s;
+          }
+          .p4:hover {
+            color: var(--main-primary, #f63);
+          }
+        }
       }
     }
   }
