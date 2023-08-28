@@ -42,3 +42,55 @@
   border-radius: 4px;
   background: var(--main-secondary-muted, #e5ffde);
 }
+.modal-btn1 {
+  width: 260px;
+  padding: 16px;
+  border-radius: 4px;
+  background: var(--main-primary-muted, #fcd5ba);
+  color: var(--main-primary, #f63);
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+}
+.modal-btn2 {
+  width: 105px;
+  background: transparent;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid var(--main-secondary, #70c05b);
+  color: var(--main-secondary, #70c05b);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+}
+.modal-btn3 {
+  background: transparent;
+  padding: 8px;
+  color: var(--grayscale-hardest, #606060);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+}
+.btn4 {
+  padding: 16px;
+  border-radius: 4px;
+  background: var(--main-primary, #f63);
+  display: flex;
+  flex-direction: row-reverse;
+  .p15 {
+    width: 207px;
+    align-items: center;
+    color: var(--main-on-primary, #fff);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+}
