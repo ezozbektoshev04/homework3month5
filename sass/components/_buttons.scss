@@ -94,3 +94,23 @@
     line-height: 150%;
   }
 }
+.btn5 {
+  background: transparent;
+  cursor: pointer;
+}
+.btn6 {
+  background: transparent;
+  cursor: pointer;
+}
+.btn7 {
+  width: 272px;
+  color: var(--main-on-primary, #fff);
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  padding: 16px;
+  border-radius: 4px;
+  background: var(--main-primary, #f63);
+}

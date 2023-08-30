@@ -596,9 +596,16 @@ products.map((product) => {
       <img src="../assets/images/image16.svg" alt="" />
     </div>
     <div class="card-btn">
-      <a href="#"><button class="btn2">В корзину</button></a>
+      <button class="btn2" onclick="addToCart(${product.id})">В корзину</button>
     </div>
   </div>
 </div>`;
 });
 homeCards.innerHTML = str;
+
+function addToCart(id) {
+  let cart = JSON.parse(localStorage.getItem("cartProducts")) || [];
+  let prod = products.find((p) => p.id === id);
+  cart.push(prod);
+  localStorage.setItem("cartProducts", JSON.stringify(cart));
+}
